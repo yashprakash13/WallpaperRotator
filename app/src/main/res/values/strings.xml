@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wallpaper Rotator</string>
+    <string name="action_settings">Settings</string>
+    <string name="all_set_set_the_timings_now">All Set? Set the timings now!</string>
+    <string name="no_images_added_yet">No Images Added Yet!</string>
+
+    <string name="timing_key">TIME_SET</string>
+</resources>

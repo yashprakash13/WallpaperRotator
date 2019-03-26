@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TimingsActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Set Wallpaper Change Duration : "
+        android:layout_margin="13dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:padding="11dp"
+        android:id="@+id/choicesRadioGroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Six Hours"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/six_hours"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Twelve Hours"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/twelve_hours"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Twenty-Four Hours"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/twenty_four_hours"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two days"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/two_days"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Three Days"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/three_days"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Six Days"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/six_days"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fortnightly"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/fortnightly"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monthly"
+            style="@style/RadioButtonStyle"
+            android:id="@+id/monthly"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/doneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="23dp"
+        android:padding="11dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Done!"
+        android:background="@drawable/rounded_rect"
+        android:backgroundTint="@color/colorGreener"
+        android:elevation="20dp"/>
+
+
+
+</LinearLayout>
