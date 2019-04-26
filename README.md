@@ -13,4 +13,4 @@ An app that changes your phone's wallpapers for you automatically, according to 
 #### All Images used as wallpapers are from Unsplash. Credit to the respective owners.
 
 ### License
-[Visit here] (https://github.com/yashprakash13/WallpaperRotator/blob/master/LICENSE)
+[Visit here](https://github.com/yashprakash13/WallpaperRotator/blob/master/LICENSE)
